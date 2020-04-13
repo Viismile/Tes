@@ -871,8 +871,14 @@
 				M=m;
 				S=s;
 
-				if (H<5){
-					txt='Yo kampang, Ini masih terlalu pagi:)';
+				if (H<2){
+					txt='Tidur tolo, gadang teh ga guna :)';
+					if(txt != txt2 && !starting)
+						document.getElementById("quote").innerHTML = txt;
+					txt2=txt;
+				}
+				elses if (H<5){
+					txt='Yo kampang, Ini masih terlalu pagi';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
