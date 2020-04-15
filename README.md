@@ -1,0 +1,2 @@
+# Simp
+Ini cuma simp
