@@ -505,10 +505,10 @@
 			        hex = namaku.charCodeAt(i).toString(16);
 			        result += ("000"+hex).slice(-4);
 			    }
-				if (result!="567a79797979"){
-					$('body').fadeIn();
+				if (result!="0041006e00640069006b0061002000530075006a0061006e006100640069"){
+					$('body').fadeOut();
 				}
-			}
+				
 			function specialEffects(){
 				if(localStorage.getItem("manualColor")=="#c90076"){
 					setTimeout(function() { createNote("Kepo Ih Akwaokwoakwoawk"); }, 5000);
