@@ -1,6 +1,6 @@
 :root {
   /* Dracula Colors */
-  --dracula-background: #282a36 !important;
+  --dracula-background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLVV-f2I-HvStj618ELGZxJHYKCJRBNyFCL6iggJjcwDCz7LHDx6wIccnAoEv_afVLfZwphkceSso7mrHh9j6yl8KbUpkswmVb1vfVh7nH9dPAldvdx_RVmRtgf6AlzsnUpwt--vOc4CaR5xZ6-8s3Ww=w766-h574-no?authuser=0') !important;
   --dracula-current-line: #44475a !important;
   --dracula-selection: #44475a !important;
   --dracula-foreground: #f8f8f2 !important;
